@@ -1,9 +1,6 @@
-var myStyle = {
-    fontSize: 100,
-    color: '#FF0000'
-};
+var arr = [
+    <h1>菜鸟教程</h1>,
+    <h2>学的不仅是技术，更是梦想！</h2>
+  ];
 ReactDOM.render(
-    <div>
-    <h1 style={myStyle}>cer</h1>
-    {/*注释*/}
-</div>, document.getElementById('example'))
+    <div>{arr}</div>, document.getElementById('example'))
